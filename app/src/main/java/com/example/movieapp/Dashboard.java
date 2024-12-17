@@ -25,6 +25,14 @@ public class Dashboard extends AppCompatActivity {
         b4=(Button) findViewById(R.id.bt4);
         b5=(Button) findViewById(R.id.bt5);
 
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ob4 = new Intent(getApplicationContext(), AddMovies.class);
+                startActivity(ob4);
+            }
+        });
+
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
