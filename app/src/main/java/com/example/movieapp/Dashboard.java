@@ -33,6 +33,14 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ob5 = new Intent(getApplicationContext(), ViewAllMovies.class);
+                startActivity(ob5);
+            }
+        });
+
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
