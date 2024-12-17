@@ -25,6 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/et1"
         android:drawableLeft="@drawable/baseline_person_24"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
@@ -40,6 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/et2"
         android:inputType="textPassword"
         android:drawableLeft="@drawable/baseline_verified_user_24"
         android:layout_marginLeft="10dp"
@@ -49,6 +51,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt1"
         android:text="Login"
         android:textColor="#F0F0E8"
         android:background="#B718C1"
